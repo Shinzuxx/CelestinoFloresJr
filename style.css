@@ -1,0 +1,336 @@
+
+section{
+
+    height: 100vh;
+    scroll-behavior: smooth;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.nav-a {
+  color: white !important;
+}
+
+.nav-a:hover {
+  color: rgb(151, 69, 90) !important;
+  text-decoration: underline;
+}
+
+.circle-image {
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the circle */
+    margin-bottom: 15px; /* Space between the image and text */
+    margin-top:10px;
+}
+
+.home-text {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#Business h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #333; /* Dark text color for better readability */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Business  .lux {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#UMhistory .img-fluid{
+  
+  object-fit: cover; /* Ensures the image covers the circle */
+  margin-left: 410px;
+  margin-bottom: 15px; /* Space between the image and text */
+  margin-top:10px;
+}
+
+#UMhistory {
+  max-height: 600px; /* Adjust this value based on your design needs */
+  overflow-y: auto; /* Adds vertical scroll bar when content exceeds max-height */
+  padding: 20px; /* Adds some padding around the content */
+  border: 1px solid #ddd; /* Optional: adds a border around the section */
+  border-radius: 8px; 
+  text-align: center;
+  text-align: justify; 
+}
+
+#UMhistory h2 {
+  font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #333; /* Dark text color for better readability */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+#UMhistory h3 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  color: #333; /* Dark text color for better readability */
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#UMhistory p {
+    text-indent: 50px;
+    text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#UMhistory .asdasd {
+  text-indent: 0%;
+  text-align:center;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.btn-add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+/* CSS for CS Events Section */
+
+
+#CSevent h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #333; /* Dark text color for better readability */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#CSevent p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333; /* Slightly lighter color for the paragraph text */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style for the images */
+#CSevent .img-fluid {
+    border-radius: 10px; /* Rounded corners for the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    width: 90%; /* Ensure images fit the column width */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the box while maintaining aspect ratio */
+    margin-left: 15px ;
+}
+
+/* Hover effect for images */
+#CSevent .img-fluid:hover {
+    transform: scale(1.05); /* Slightly zoom in on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Centering rows */
+.row.justify-content-center {
+    display: flex;
+    justify-content: center; /* Center align the columns */
+    flex-wrap: wrap; /* Allow wrapping of columns */
+}
+
+#contacts h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #333; /* Dark text color for better readability */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contacts .card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+    
+  
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+    border-radius: 50%;
+    
+    
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+    border-radius: 50%;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+    border-radius: 50%;
+  }
+  
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  #family h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #333; /* Dark text color for better readability */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#family p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333; /* Slightly lighter color for the paragraph text */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* Style for the images */
+#family .img-fluid {
+    border-radius: 10px; /* Rounded corners for the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    width: 90%; /* Ensure images fit the column width */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the box while maintaining aspect ratio */
+    margin-left: 15px ;
+   
+}
+
+/* Hover effect for images */
+#family .img-fluid:hover {
+    transform: scale(1.05); /* Slightly zoom in on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+/* Centering rows */
+.row.justify-content-center {
+    display: flex;
+    justify-content: center; /* Center align the columns */
+    flex-wrap: wrap; /* Allow wrapping of columns */
+}
+
+.footer {
+  font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333; /* Slightly lighter color for the paragraph text */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
