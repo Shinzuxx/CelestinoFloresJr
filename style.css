@@ -30,18 +30,26 @@ section{
     text-align: center;
 }
 
+#Business{
+
+overflow-y: auto;
+
+}
 #Business h2 {
     font-size: 2.5rem;
     margin-bottom: 5px;
     color: #333; /* Dark text color for better readability */
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    overflow-y: auto;
 }
 #Business  .lux {
     font-size: 1.2rem;
     margin-bottom: 10px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    text-align: justify;
+    overflow-y: auto;
+    text-indent: 20px;
 }
 
 #UMhistory .img-fluid{
@@ -50,6 +58,7 @@ section{
   margin-left: 410px;
   margin-bottom: 15px; /* Space between the image and text */
   margin-top:10px;
+  overflow-y: auto;
 }
 
 #UMhistory {
@@ -287,6 +296,18 @@ section{
     margin-left: 15px ;
    
 }
+#magazine p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333; /* Slightly lighter color for the paragraph text */
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+#magazine {
+  overflow-y: auto;
+}
 
 /* Hover effect for images */
 #family .img-fluid:hover {
@@ -334,9 +355,84 @@ section{
   text-decoration: underline;
 }
 #magazine h2 {
-    font-size: 2.5rem;
-    margin-bottom: 5px;
-    color: #333; /* Dark text color for better readability */
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  color: #333; /* Dark text color for better readability */
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+#operatingsystem h2 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  color: #333; /* Dark text color for better readability */
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#operatingsystem {
+overflow-y: auto;
+
+}
+
+
+#operatingsystem p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333; /* Slightly lighter color for the paragraph text */
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+
+/* Basic styling for the operating systems section */
+.os-history {
+  margin-top: 20px;
+}
+
+.os-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.os-img-wrapper {
+  width: 100;
+  
+  height: 300px; /* Fixed height */
+  overflow: hidden; /* Hide overflow to maintain aspect ratio */
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin: 0 auto; /* Center the wrapper horizontally */
+}
+
+.os-img {
+  width: 100px;
+  height: 100px; /* Full height of the wrapper */
+  object-fit: cover; /* Maintain aspect ratio while filling the container */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.os-img:hover {
+  transform: scale(1.05); /* Slightly enlarge the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for a classy effect */
+}
+
+.professor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.prof-img {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  border-radius: 50%; /* Optional: make the images round */
+  margin-right: 15px; /* Space between image and text */
+  object-fit: cover; /* Maintain aspect ratio while filling the container */
+  text-align: center;
+}
+
 
