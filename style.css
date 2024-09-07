@@ -333,4 +333,10 @@ section{
 .footer-links a:hover {
   text-decoration: underline;
 }
+#magazine h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #333; /* Dark text color for better readability */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 
